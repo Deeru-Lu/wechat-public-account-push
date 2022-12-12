@@ -173,7 +173,7 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-04',
     },
-        {
+    {
       // 想要发送的人的名字
       name: '点哥',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
@@ -276,7 +276,7 @@ const USER_CONFIG = {
       useTemplateId: '516iFxZTIrHIZqkkaD_SdlkvI4imyW2W1S9-ROQ1S8A',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-04',
-    },
+    }
   ],
 
 
