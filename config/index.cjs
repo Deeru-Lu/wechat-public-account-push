@@ -69,58 +69,6 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-04',
     },
-    {
-      // 想要发送的人的名字
-      name: '叉姐',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ojzPe6szP3r6pYz0yjT_Xz3P5CdY',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'bINdjIqexK0K_Q27z-xPkf7jGLfAijkZDGe2xnBC4CM',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '11-05',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '未知', year: '', date: '',
-        },
-        {
-          type: '*节日', name: '端午节', year: '1996', date: '05-05',
-        },
-        {
-          type: '*节日', name: '中秋节', year: '1996', date: '08-15',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '节日', name: '元旦', year: '2023', date: '01-01',
-        },
-        {
-         type: '节日', name: '清明节', year: '2023', date: '04-05',
-        },
-        {
-          type: '节日', name: '劳动节', year: '2022', date: '05-01',
-        },
-        {
-          type: '节日', name: '国庆节', year: '2022', date: '10-01',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
-      ],
-    },
-    {
-       // 想要发送的人的名字
-      name: '叉姐',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ojzPe6szP3r6pYz0yjT_Xz3P5CdY',
-      //星座寄语发送模板
-      useTemplateId: '516iFxZTIrHIZqkkaD_SdlkvI4imyW2W1S9-ROQ1S8A',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '11-04',
-    },
   ],
     SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
