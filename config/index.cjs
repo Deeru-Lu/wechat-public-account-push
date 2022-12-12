@@ -65,7 +65,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ojzPe6rfh-Z0cDu56dyfvjR_Ibk4',
       //星座寄语发送模板
-      useTemplateId: 'qoS5XWEkE9ODGgNvYBVAk5iHmwq7aLlaj4w5wi9LGJE',
+      useTemplateId: 'W--Q8dCJQYG2r0omn1tSD7Hwf3ZeOD1COLZFCzLSWVg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-04',
     },
