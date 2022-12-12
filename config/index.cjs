@@ -66,6 +66,8 @@ const USER_CONFIG = {
       id: 'ojzPe6rfh-Z0cDu56dyfvjR_Ibk4',
       //星座寄语发送模板
       useTemplateId: 'qoS5XWEkE9ODGgNvYBVAk5iHmwq7aLlaj4w5wi9LGJE',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '07-04',
     },
         {
       name: '老婆1',
