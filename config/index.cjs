@@ -61,6 +61,14 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
+    {
+       // 想要发送的人的名字
+      name: '主人',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'ojzPe6rfh-Z0cDu56dyfvjR_Ibk4',
+      //星座寄语发送模板
+      useTemplateId: 'qoS5XWEkE9ODGgNvYBVAk5iHmwq7aLlaj4w5wi9LGJE',
+    },
         {
       name: '老婆1',
       id: '',
