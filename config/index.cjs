@@ -226,7 +226,7 @@ const USER_CONFIG = {
       horoscopeDate: '07-04',
     }
   ],
-
+}
 
   
   
