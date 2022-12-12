@@ -24,6 +24,8 @@ const USER_CONFIG = {
       id: 'ojzPe6rfh-Z0cDu56dyfvjR_Ibk4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Wgndba_tXPegFUTlWK6RVr2l7xPzZv70FTdkM5K6aRU',
+      //星座寄语发送模板
+      useTemplateId: 'qoS5XWEkE9ODGgNvYBVAk5iHmwq7aLlaj4w5wi9LGJE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-04',
       festivals: [
@@ -59,11 +61,24 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
+        {
+      name: '老婆1',
+      id: '',
+      useTemplateId: '',
+      province: '',
+      city: '',
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [],
+      customizedDateList: [],
+      courseSchedule: null
+    },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'qoS5XWEkE9ODGgNvYBVAk5iHmwq7aLlaj4w5wi9LGJE',
+  CALLBACK_TEMPLATE_ID: 'UDKn-UMVhf0R3ZZrPU-uemOZacv2066cL-nolgKxkRo',
 
   CALLBACK_USERS: [
     {
