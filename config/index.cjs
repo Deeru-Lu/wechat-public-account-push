@@ -15,8 +15,8 @@ const USER_CONFIG = {
   MAX_PUSH_ONE_MINUTE: 5,
   // 配合MAX_PUSH_ONE_MINUTE使用，休眠<SLEEP_TIME>毫秒后再发送剩余消息，不填则默认为65000
   SLEEP_TIME: 65000,
-  //PROVINCE: '深圳',
-  //CITY: '龙岗',
+  PROVINCE: '深圳',
+  CITY: '龙岗',
 
   USERS: [
     {
@@ -27,10 +27,9 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'MCx98a6oY3RJ2E9AVEMLXA71UQ0H2yg1sMm8iaCf2qw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      province: '深圳',
+      city: '龙岗',
       horoscopeDate: '07-04',
-      
-  PROVINCE: '深圳',
-  CITY: '龙岗',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -97,8 +96,8 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-18',
       
-      PROVINCE: '深圳',
-      CITY: '龙岗',
+      province: '深圳',
+      city: '龙岗',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -164,8 +163,8 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-27',
       
-      PROVINCE: '深圳',
-      CITY: '龙华',
+      province: '深圳',
+      city: '龙华',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -230,8 +229,8 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-27',
       
-      PROVINCE: '江苏',
-      CITY: '无锡',
+      province: '江苏',
+      city: '无锡',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
